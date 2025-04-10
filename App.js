@@ -14,7 +14,7 @@ function GameComponent() {
   const ball = {
     position: { x: width / 2 - 25, y: height / 2 },
     size: 50,
-    velocity: { x: 0.1, y: 0.1 },
+    velocity: { x: 1, y: 1 },
     renderer: (props) => {
       const { position, size } = props;
       return (
